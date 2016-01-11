@@ -66,4 +66,4 @@ new Thread() {
 
 最后
 -----------
-欢迎共同交流，我的blog：http://blog.csdn.net/lgl1170860350，谢谢。
+欢迎共同交流，我的[blog](http://blog.csdn.net/lgl1170860350)，谢谢。
