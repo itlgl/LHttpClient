@@ -1,4 +1,4 @@
-package com.net.lhttpclient;
+package com.hb.lhttpclient;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -43,8 +43,6 @@ import org.apache.http.params.HttpProtocolParams;
 import org.apache.http.protocol.BasicHttpContext;
 import org.apache.http.protocol.HttpContext;
 import org.apache.http.protocol.SyncBasicHttpContext;
-
-import com.loopj.android.http.PersistentCookieStore;
 
 /**
  * code from AsyncHttpClient(https://github.com/loopj/android-async-http)
@@ -166,7 +164,7 @@ public class LHttpClient {
 	 * 
 	 * @param cookieStore
 	 *            The CookieStore implementation to use, usually an instance of
-	 *            {@link PersistentCookieStore}
+	 *            PersistentCookieStore
 	 */
 	public void setCookieStore(CookieStore cookieStore) {
 		httpContext.setAttribute(ClientContext.COOKIE_STORE, cookieStore);
