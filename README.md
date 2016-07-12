@@ -1,3 +1,8 @@
+DEPRECATED
+-------------
+由于android6.0已经不包含HttpClient，需要另外自己将兼容的HttpClient包导入，故不再推荐使用HttpClient进行网络访问。可以改用[OKHttp](https://github.com/square/okhttp)。
+
+
 # LHttpClient
 修改[AsyncHttpClient](https://github.com/loopj/android-async-http)的代码，修改一个同步的网络请求包装出来，设置和请求的参数方法和原来相同，在连续多个请求的时候会比原本回调的方式好用。
 增加了一个统一打印的LogUtil类，可以通过LHttpClient.DEBUG设置。
